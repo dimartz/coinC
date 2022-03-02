@@ -7,9 +7,6 @@ Best CLI tool for those who are both **Crypto investors** and **Engineers**.
 
 All data comes from [coincap](https://coincap.io/) APIs.
 
-## Quick Update
-* As coinmarketcap API is only free with API keys, we moved to use coincap API and disabled some features.
-
 ## Install
 
 It's simple to compile `coinC` on your local computer.  
