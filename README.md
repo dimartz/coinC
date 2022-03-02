@@ -1,6 +1,6 @@
 ## coinC
 
-> 💰 Cryptocurrency price ticker CLI.
+> 💰 Cryptocurrency price ticker CLI. Forked from coinmon written in C.
 
 Check cryptocurrencies' prices, changes on your console.
 Best CLI tool for those who are both **Crypto investors** and **Engineers**.
