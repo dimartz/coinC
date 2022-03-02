@@ -1,9 +1,4 @@
-
-<img src="https://raw.githubusercontent.com/bichenkk/coinmon/master/logo.png">
-
-[![Node version](https://img.shields.io/badge/node.js-%3E=_6.0-green.svg)](http://nodejs.org/download/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+## coinC
 
 > 💰 Cryptocurrency price ticker CLI.
 
@@ -17,17 +12,21 @@ All data comes from [coincap](https://coincap.io/) APIs.
 
 ## Install
 
-In order to use coinmon, make sure that you have [Node](https://nodejs.org/) version 6.0.0 or higher.
+It's simple to compile `coinC` on your local computer.  
+The following is step-by-step instruction.
 
 ```
-$ npm install -g coinmon
+$ git clone https://github.com/dimartz/coinc.git
+$ cd coinc
+$ make
+$ make clean install
 ```
 
 ## Usage
 
 To check the top 10 cryptocurrencies ranked by their market cap, simply enter
 ```
-$ coinmon
+$ coinc
 ```
 
 ## Options
@@ -37,8 +36,8 @@ $ coinmon
 You can use the `-f` (or `--find`) with coin symbol to search cryptocurrencies. You can add symbols seperated by comma.
 
 ```
-$ coinmon -f btc // search coins included keyword btc
-$ coinmon -f btc,eth // search coins included keyword btc or eth
+$ coinc -f btc // search coins included keyword btc
+$ coinc -f btc,eth // search coins included keyword btc or eth
 ```
 
 ### Find top coin(s)
@@ -46,76 +45,20 @@ $ coinmon -f btc,eth // search coins included keyword btc or eth
 You can use the `-t` (or `--top`) with the index to find the top n cryptocurrencies ranked by their market cap.
 
 ```
-$ coinmon -t 50 // find top 50
+$ coinc -t 50 // find top 50
 ```
 
 ### Show option menu
 
-You can use the `-h` (or `--help`) to find all valid options of coinmon
+You can use the `-h` (or `--help`) to find all valid options of coinC
 
 ```
-$ coinmon -h
+$ coinc -h
 ```
 
 ## Screenshot
 
 <img src="https://raw.githubusercontent.com/bichenkk/coinmon/master/screenshot.png">
-
-## Development
-
-It's simple to run `coinmon` on your local computer.  
-The following is step-by-step instruction.
-
-```
-$ git clone https://github.com/bichenkk/coinmon.git
-$ cd coinmon
-$ yarn
-$ npm install -g
-$ npm link
-$ coinmon
-```
-
-## Docker
-
-### Initial usage
-
-```
-$ docker run --rm -ti jaymoulin/coinmon
-```
-
-You can pass parameters just like `coinmon` binary
-
-```
-$ docker run --rm -ti jaymoulin/coinmon --help
-```
-
-### Local usage
-
-#### Build image
-
-```
-$ docker build -t coinmon .
-```
-
-#### Usage
-
-```
-$ docker run --rm -ti coinmon
-```
-
-You can pass parameters just like `coinmon` binary
-
-```
-$ docker run --rm -ti coinmon --help
-```
-
-## Contributors
-
-* @maticrivo 
-* @pgila 
-* @vladei 
-* @jaymoulin
-* @anilkilic
 
 ## License
 
