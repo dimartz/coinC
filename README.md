@@ -58,7 +58,7 @@ $ coinc -h
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/dimartz/coinc/master/screenshot.png">
+<img src="https://raw.githubusercontent.com/dimartz/coinC/master/screenshot.png">
 
 ## License
 
