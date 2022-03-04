@@ -33,6 +33,8 @@ To check the top 10 cryptocurrencies ranked by their market cap, simply enter
 $ coinc
 ```
 
+<img src="https://raw.githubusercontent.com/dimartz/coinC/master/screenshot.png">
+
 ## Options
 
 ### Find specific coin(s)
@@ -59,10 +61,6 @@ You can use the `-h` (or `--help`) to find all valid options of coinC
 ```
 $ coinc -h
 ```
-
-## Screenshot
-
-<img src="https://raw.githubusercontent.com/dimartz/coinC/master/screenshot.png">
 
 ## License
 
