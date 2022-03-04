@@ -13,10 +13,17 @@ It's simple to compile `coinC` on your local computer.
 The following is step-by-step instruction.
 
 ```
-$ git clone https://github.com/dimartz/coinc.git
-$ cd coinc
+$ git clone https://github.com/dimartz/coinC.git
+$ cd coinC
 $ make
 $ make clean install
+```
+
+## Uninstall
+
+In the previously `coinC` folder:
+```
+$ make uninstall
 ```
 
 ## Usage
